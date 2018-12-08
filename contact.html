@@ -35,6 +35,25 @@
 
         <hr>
 
+        <form>
+            <div class="form-group">
+                <label for="yourName">Name</label>
+                <input type="fname" class="form-control" id="yourName" placeholder="Your Name">
+            </div>
+
+            <div class="form-group">
+                <label for="yourEmail">Email address</label>
+                <input type="email" class="form-control" id="yourEmail" placeholder="name@example.com">
+            </div>
+
+            <div class="form-group">
+                <label for="yourMessage">Message:</label>
+                <textarea class="form-control" id="yourMessage" rows="5"></textarea>
+            </div>
+
+            <button type="submit" id="submitButton" class="btn btn-primary">Submit</button>
+        </form>
+
     </div>
 
     <div id="footer" class="container-fluid">
@@ -92,11 +111,18 @@
             height: 500px;
             margin-top: 40px;
             margin-bottom: 40px;
-            padding:10px;
+            padding: 10px;
+        }
+
+        p {
+            font-size: 10px;
+            color: #ffffff;
+            text-align: center;
+            margin-top: 20px;
         }
 
         #title {
-            color:#4aaaa5;
+            color: #4aaaa5;
             background-color: #ffffff;
             float: left;
             width: 176px;
@@ -119,6 +145,36 @@
             bottom: 0px;
         }
 
+        .form-group {
+            font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+            color: #777777;
+            font-size: 14px;
+        }
+
+        #yourName {
+            font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+            color: #777777;
+            font-size: 14px;
+        }
+
+        #yourEmail {
+            font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+            color: #777777;
+            font-size: 14px;
+        }
+
+        #yourMessage {
+            font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+            color: #777777;
+            font-size: 14px;
+        }
+
+        #submitButton {
+            background-color: #4aaaa5;
+            font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+            font-size: 14px;
+            color: #ffffff;
+        }
     </style>
 
 </body>
